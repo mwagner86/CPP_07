@@ -4,6 +4,7 @@
 ## Exercise 00:
 ###  Start with a few functions
 Implement the following function templates:
+
 • swap: Swaps the values of two given arguments. Does not return anything.
 
 • min: Compares the two values passed in its arguments and returns the smallest one. 
@@ -14,6 +15,7 @@ Implement the following function templates:
 ## Exercise 01:
 ### Iter
 Implement a function template iter that takes 3 parameters and returns nothing.
+
 • The first parameter is the address of an array.
 
 • The second one is the length of the array.
