@@ -20,8 +20,7 @@ RESET_COL 	:= \033[0m
 NAME 		:= iter
 CC 		:= c++
 CFLAGS 		:= -Wall -Werror -Wextra -std=c++98
-SRC 		:=	main.cpp \
-			Iter.cpp
+SRC 		:=	main.cpp
 
 all: $(NAME)
 
