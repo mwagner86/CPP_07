@@ -21,7 +21,6 @@ NAME 		:= FunctionTemplates
 CC 		:= c++
 CFLAGS 		:= -Wall -Werror -Wextra -std=c++98
 SRC 		:=	main.cpp \
-			FunctionTemplates.cpp
 
 all: $(NAME)
 
