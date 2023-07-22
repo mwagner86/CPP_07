@@ -18,7 +18,7 @@ int main() {
 	std::string stringArray[] = {"one", "two", "three", "four", "five"};
 
 	// Call iter with print function
-	std::cout << std::left << std::setw(50) << "Printing the array elements: ";
+	std::cout << std::left << std::setw(50) << "Printing the int array elements: ";
 	iter(intArray, 5, ft_print_elem);
 	std::cout << std::endl;
 
