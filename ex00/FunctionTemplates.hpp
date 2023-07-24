@@ -1,6 +1,14 @@
-//
-// Created by max on 7/16/23.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   FunctionTemplates.hpp                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mwagner <mwagner@student.42wolfsburg.de>   +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/07/24 14:31:40 by mwagner           #+#    #+#             */
+/*   Updated: 2023/07/24 14:31:43 by mwagner          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #ifndef EX00_FUNCTIONTEMPLATES_HPP
 #define EX00_FUNCTIONTEMPLATES_HPP
