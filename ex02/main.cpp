@@ -115,5 +115,31 @@ int main(int, char**) {
 	}
 	std::cout << std::endl;
 
+	// Complex type: String Array
+	Array<std::string> stringArray(3);
+
+	// Initialize elements
+	stringArray[0] = "Hello";
+	stringArray[1] = "Complex";
+	stringArray[2] = "Types";
+
+	// Print elements
+	for (unsigned int i = 0; i < stringArray.size(); i++) {
+		std::cout << stringArray[i] << " ";
+	}
+	std::cout << std::endl;
+
+	// Copy constructor
+	Array<std::string> copyArray(stringArray);
+
+	// Modify a value in the copy
+	copyArray[1] = "String Data";
+
+	// Print elements of the copied array
+	for (unsigned int i = 0; i < copyArray.size(); i++) {
+		std::cout << copyArray[i] << " ";
+	}
+	std::cout << std::endl;
+
 	return 0;
 }
